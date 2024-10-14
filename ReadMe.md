@@ -2,9 +2,8 @@
 
 ## Introduction
 
-本项目旨在帮助CTF初学者方便的去除常见花指令，可以在此基础上进行修改学习
-
-目前支持去除的花指令有
+本项目旨在帮助CTF初学者方便的去除常见花指令，可以在此基础上进行理解学习，有bug或者可以优化的地方欢迎和我联系交流(wx:y3049155267)
+目前支持去除的花指令有这些，后续会持续更新
 
 ```
 [*]pattern1:
@@ -62,26 +61,28 @@ label_1:	        add     dword ptr ss:[esp],6
 
 将NoMoreFlower.py放入IDA的plugins目录后重启ida即可
 
-### Use
+### How to use
 
-安装好后点击Edit->Plugins->NoMoreFlower即可自动去除
+安装好后点击Edit->Plugins->NoMoreFlower,然后Edit->Patch programs->apply patches to，最后重新打开ida，让ida重新自动分析即可
 
-## ![use](E:\xhs实习\花指令学习\NoMoreFlower\pic\use.png)效果
+![use](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/use.png))
+## 效果
 
 ### sample1
 
-#### 去除前
+#### Before
 
-![example_before](E:\xhs实习\花指令学习\NoMoreFlower\pic\example_before.png)
+![example_before](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/example_before.png)
 
-#### 去除后![example_atfer](E:\xhs实习\花指令学习\NoMoreFlower\pic\example_atfer.png)
+#### After
+![example_atfer](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/example_atfer.png)
 
 ### sample2(MoeCTF2022 checkin_soup)
 
-#### 去除前
+#### Before
 
-![checkinsoup_before](E:\xhs实习\花指令学习\NoMoreFlower\pic\checkinsoup_before.png)
+![checkinsoup_before](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/checkinsoup_before.png)
 
-#### 去除后
+#### After
 
-![checkinsoup_after](E:\xhs实习\花指令学习\NoMoreFlower\pic\checkinsoup_after.png)
+![checkinsoup_after](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/checkinsoup_after.png)
