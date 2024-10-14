@@ -66,8 +66,8 @@ label_1:	        add     dword ptr ss:[esp],6
 
 安装好后点击Edit->Plugins->NoMoreFlower即可自动去除
 
-## ![use](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/use.png))
-效果
+![use](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/use.png))
+##效果
 
 ### sample1
 
