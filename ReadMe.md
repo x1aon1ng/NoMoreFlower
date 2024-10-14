@@ -76,14 +76,14 @@ label_1:	        add     dword ptr ss:[esp],6
 ![example_before](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/example_before.png)
 
 #### 去除后
-![example_atfer](E:\xhs实习\花指令学习\NoMoreFlower\pic\example_atfer.png)
+![example_atfer](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/example_atfer.png)
 
 ### sample2(MoeCTF2022 checkin_soup)
 
 #### 去除前
 
-![checkinsoup_before](E:\xhs实习\花指令学习\NoMoreFlower\pic\checkinsoup_before.png)
+![checkinsoup_before](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/)checkinsoup_before.png)
 
 #### 去除后
 
-![checkinsoup_after](E:\xhs实习\花指令学习\NoMoreFlower\pic\checkinsoup_after.png)
+![checkinsoup_after](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/)checkinsoup_after.png)
