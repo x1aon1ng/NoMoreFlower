@@ -82,8 +82,8 @@ label_1:	        add     dword ptr ss:[esp],6
 
 #### 去除前
 
-![checkinsoup_before](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/)checkinsoup_before.png)
+![checkinsoup_before](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/checkinsoup_before.png)
 
 #### 去除后
 
-![checkinsoup_after](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/)checkinsoup_after.png)
+![checkinsoup_after](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/checkinsoup_after.png)
