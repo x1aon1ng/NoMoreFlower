@@ -66,7 +66,7 @@ label_1:	        add     dword ptr ss:[esp],6
 
 安装好后点击Edit->Plugins->NoMoreFlower即可自动去除
 
-## ![use](\pic\use.png)效果
+## ![use](NoMoreFlower\pic\use.png)效果
 
 ### sample1
 
