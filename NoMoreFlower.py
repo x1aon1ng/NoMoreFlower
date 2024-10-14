@@ -160,6 +160,7 @@ def match_like_call():
         re.compile(rb'\x50\xE8.\x00\x00\x00.+\x58\x58'),#call pop eax
         re.compile(rb'\xE8[\x01\x02\x03]\x00\x00\x00.{0,3}\x83\xC4\x04'),#call add esp 4
         re.compile(rb'\xE8[\x01\x02\x03]\x00\x00\x00.{0,3}\x36\x83\x04\x24\x08\xC3'),#call add esp  ret
+        re.compile(rb'\xE8\x00\x00\x00\x00\x58\x83\xC0\x0C\x50\xC3....\xC3'),
     ]
     return patterns
 
@@ -204,6 +205,11 @@ def patch_like_call():
                         patch_code = b'\x90\x90\x90\x90\x90'
                         if not idc.is_code(second_code_position + 6):
                             nop_code_after_junk += 1
+                    elif pattern == patterns[3]:
+                        print(f"[*] Address: {hex(match_start)}, Instruction: {idc.GetDisasm(match_start)}")
+                        ida_bytes.patch_bytes(match_start,b'\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90')
+                        print(f"Patched 16 bytes codes at {hex(match_start)}")
+                        continue
 
                     first_instruction = idc.GetDisasm(match_start)
                     second_instruction = idc.GetDisasm(second_code_position)
