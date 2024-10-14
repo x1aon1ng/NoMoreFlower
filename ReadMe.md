@@ -61,28 +61,28 @@ label_1:	        add     dword ptr ss:[esp],6
 
 将NoMoreFlower.py放入IDA的plugins目录后重启ida即可
 
-### Use
+### How to use
 
-安装好后点击Edit->Plugins->NoMoreFlower即可自动去除
+安装好后点击Edit->Plugins->NoMoreFlower,然后Edit->Patch programs->apply patches to，最后重新打开ida，让ida重新自动分析即可
 
 ![use](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/use.png))
 ## 效果
 
 ### sample1
 
-#### 去除前
+#### Before
 
 ![example_before](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/example_before.png)
 
-#### 去除后
+#### After
 ![example_atfer](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/example_atfer.png)
 
 ### sample2(MoeCTF2022 checkin_soup)
 
-#### 去除前
+#### Before
 
 ![checkinsoup_before](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/checkinsoup_before.png)
 
-#### 去除后
+#### After
 
 ![checkinsoup_after](https://github.com/x1aon1ng/NoMoreFlower/blob/master/pic/checkinsoup_after.png)
