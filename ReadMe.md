@@ -49,8 +49,9 @@ label_1:	        pop	eax
 [*]pattern6:
 			call	label_1
 			db		_junkcode
-label_1:	        add     dword ptr ss:[esp],6
+label_1:	        add     dword ptr ss:[esp],8
                        ret
+			db		_junkcode
 ```
 
 
